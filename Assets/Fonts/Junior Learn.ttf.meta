@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 3702c06c57019f84d924397b6544af21
+timeCreated: 1486455351
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 33
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Junior Learn
+  fontNames:
+  - Junior Learn
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

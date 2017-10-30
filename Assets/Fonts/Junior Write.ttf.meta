@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: b9b64c2942af67a41b630ae1b9c13aec
+timeCreated: 1486455352
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Junior Write
+  fontNames:
+  - Junior Write
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

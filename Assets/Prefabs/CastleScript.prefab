@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1404321467159464}
+  m_IsPrefabParent: 1
+--- !u!1 &1404321467159464
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4974964620414332}
+  - component: {fileID: 114301835952611642}
+  m_Layer: 0
+  m_Name: CastleScript
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4974964620414332
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1404321467159464}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 14.261719, y: -2.4609375, z: -8.0078125}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114301835952611642
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1404321467159464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1683bf9da514ec44cb23c70b0862706f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  abc: {fileID: 0}
+  lets: {fileID: 0}
+  sparkles: {fileID: 0}
+  tryagain: {fileID: 0}
+  aud: {fileID: 0}
+  door: {fileID: 0}
+  boy: {fileID: 0}
+  letters: {fileID: 0}
+  letters2: {fileID: 0}
+  letters3: {fileID: 0}
+  Cav: {fileID: 0}
+  Camera1OBJ: {fileID: 0}
+  Camera2OBJ: {fileID: 0}
+  Camera3OBJ: {fileID: 0}
+  Camera4OBJ: {fileID: 0}
+  Camera5OBJ: {fileID: 0}
+  Camera6OBJ: {fileID: 0}
+  GUICameraOBJ: {fileID: 0}
+  Cam1: {fileID: 0}
+  Cam2: {fileID: 0}
+  Cam3: {fileID: 0}
+  Cam4: {fileID: 0}
+  Cam5: {fileID: 0}
+  Cam6: {fileID: 0}
+  GUICam: {fileID: 0}
+  playingAudio: 0
+  LettersCount: 2
+  LettersClicked: 0
+  Current_group: 1
+  Groups_count: 
+  LettersGroup1Array: []
+  LettersGroup2Array: []
+  LettersGroup3Array: []
+  LettersGroup4Array: []
+  FindLetterIndex: 0
+  CurrentLetter: 
+  CardText: {fileID: 0}
+  CardText2: {fileID: 0}
+  CardLetters: {fileID: 0}
+  SelectedLetter: {fileID: 0}

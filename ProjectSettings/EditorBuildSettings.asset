@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Splash.unity
+    guid: 37512cae358b8ed4cb90231db9782a10
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 18a6730370daf1140a18a53a6617d877
+  - enabled: 1
+    path: Assets/Scenes/Farm.unity
+    guid: fed6446c97eb651468f307fd4ae51989
+  - enabled: 1
+    path: Assets/Scenes/Landing.unity
+    guid: 0c151d9c908999949abfb4667f31b6fd
+  - enabled: 1
+    path: Assets/Scenes/Parachute.unity
+    guid: 27140d000236dd34ba3c283067cef063
+  - enabled: 1
+    path: Assets/Scenes/Gate.unity
+    guid: febf484cfa70bd54c8099bc4eb8640de
+  - enabled: 1
+    path: Assets/Scenes/Castle.unity
+    guid: 27538bf6baaf261419ccb97e1d56e1df
+  - enabled: 1
+    path: Assets/Scenes/Safari.unity
+    guid: 65b718017cb7d934197547f0b7eb05dd
+  - enabled: 0
+    path: Assets/Scenes/test.unity
+    guid: 86891bff6e8e7514d9d4935ad9d14309

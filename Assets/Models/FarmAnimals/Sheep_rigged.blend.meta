@@ -1,0 +1,439 @@
+fileFormatVersion: 2
+guid: 38d7b2c6787a16541801b5d3d0781234
+timeCreated: 1488353313
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Armature
+    100004: Bone
+    100006: Bone_001
+    100008: Bone_002
+    100010: Bone_003
+    100012: Bone_004
+    100014: Bone_004_L
+    100016: Bone_004_L_001
+    100018: Bone_004_L_002
+    100020: Bone_004_L_003
+    100022: Bone_004_R
+    100024: Bone_004_R_001
+    100026: Bone_004_R_002
+    100028: Bone_004_R_003
+    100030: Bone_005
+    100032: Bone_L
+    100034: Bone_L_001
+    100036: Bone_L_002
+    100038: Bone_L_003
+    100040: Bone_R
+    100042: Bone_R_001
+    100044: Bone_R_002
+    100046: Bone_R_003
+    100048: Sheep
+    100050: Sheep_001
+    100052: Sheep_002
+    100054: Sheep_003
+    100056: Sheep_004
+    100058: Sheep_005
+    100060: Sheep_006
+    100062: Sheep_007
+    100064: Sheep_008
+    100066: Sheep_009
+    100068: Bone_006
+    100070: Bone_007
+    100072: Bone_008
+    100074: Cube
+    100076: Cube_001
+    100078: Sheep_000
+    400000: //RootNode
+    400002: Armature
+    400004: Bone
+    400006: Bone_001
+    400008: Bone_002
+    400010: Bone_003
+    400012: Bone_004
+    400014: Bone_004_L
+    400016: Bone_004_L_001
+    400018: Bone_004_L_002
+    400020: Bone_004_L_003
+    400022: Bone_004_R
+    400024: Bone_004_R_001
+    400026: Bone_004_R_002
+    400028: Bone_004_R_003
+    400030: Bone_005
+    400032: Bone_L
+    400034: Bone_L_001
+    400036: Bone_L_002
+    400038: Bone_L_003
+    400040: Bone_R
+    400042: Bone_R_001
+    400044: Bone_R_002
+    400046: Bone_R_003
+    400048: Sheep
+    400050: Sheep_001
+    400052: Sheep_002
+    400054: Sheep_003
+    400056: Sheep_004
+    400058: Sheep_005
+    400060: Sheep_006
+    400062: Sheep_007
+    400064: Sheep_008
+    400066: Sheep_009
+    400068: Bone_006
+    400070: Bone_007
+    400072: Bone_008
+    400074: Cube
+    400076: Cube_001
+    400078: Sheep_000
+    2300000: //RootNode
+    2300002: Cube
+    2300004: Cube_001
+    2300006: Sheep_000
+    2300008: Sheep_001
+    2300010: Sheep_002
+    2300012: Sheep_003
+    2300014: Sheep_004
+    2300016: Sheep_005
+    2300018: Sheep_006
+    3300000: //RootNode
+    3300002: Cube
+    3300004: Cube_001
+    3300006: Sheep_000
+    3300008: Sheep_001
+    3300010: Sheep_002
+    3300012: Sheep_003
+    3300014: Sheep_004
+    3300016: Sheep_005
+    3300018: Sheep_006
+    4300000: Sphere_004
+    4300002: Sheep
+    4300004: Sheep_009
+    4300006: Sheep_008
+    4300008: Sheep_007
+    4300010: Sheep_006
+    4300012: Sheep_005
+    4300014: Sheep_004
+    4300016: Sheep_003
+    4300018: Sheep_002
+    4300020: Sheep_001
+    4300022: Cube_001
+    4300024: Cube
+    4300026: Sheep_000
+    7400000: Default Take
+    7400002: Idle
+    7400004: Talk
+    9500000: //RootNode
+    13700000: Sheep
+    13700002: Sheep_001
+    13700004: Sheep_002
+    13700006: Sheep_003
+    13700008: Sheep_004
+    13700010: Sheep_005
+    13700012: Sheep_006
+    13700014: Sheep_007
+    13700016: Sheep_008
+    13700018: Sheep_009
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 249
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone_001
+        weight: 1
+      - path: Armature/Bone/Bone_001/Bone_002
+        weight: 1
+      - path: Armature/Bone/Bone_001/Bone_002/Bone_003
+        weight: 1
+      - path: Armature/Bone/Bone_L
+        weight: 1
+      - path: Armature/Bone/Bone_L/Bone_L_001
+        weight: 1
+      - path: Armature/Bone/Bone_L/Bone_L_001/Bone_L_002
+        weight: 1
+      - path: Armature/Bone/Bone_L/Bone_L_001/Bone_L_002/Bone_L_003
+        weight: 1
+      - path: Armature/Bone/Bone_R
+        weight: 1
+      - path: Armature/Bone/Bone_R/Bone_R_001
+        weight: 1
+      - path: Armature/Bone/Bone_R/Bone_R_001/Bone_R_002
+        weight: 1
+      - path: Armature/Bone/Bone_R/Bone_R_001/Bone_R_002/Bone_R_003
+        weight: 1
+      - path: Armature/Bone_004
+        weight: 1
+      - path: Armature/Bone_004/Bone_005
+        weight: 1
+      - path: Armature/Bone_004_L
+        weight: 1
+      - path: Armature/Bone_004_L/Bone_004_L_001
+        weight: 1
+      - path: Armature/Bone_004_L/Bone_004_L_001/Bone_004_L_002
+        weight: 1
+      - path: Armature/Bone_004_L/Bone_004_L_001/Bone_004_L_002/Bone_004_L_003
+        weight: 1
+      - path: Armature/Bone_004_R
+        weight: 1
+      - path: Armature/Bone_004_R/Bone_004_R_001
+        weight: 1
+      - path: Armature/Bone_004_R/Bone_004_R_001/Bone_004_R_002
+        weight: 1
+      - path: Armature/Bone_004_R/Bone_004_R_001/Bone_004_R_002/Bone_004_R_003
+        weight: 1
+      - path: Sheep
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle
+      takeName: Idle
+      firstFrame: 0
+      lastFrame: 179
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone_001
+        weight: 1
+      - path: Armature/Bone/Bone_001/Bone_002
+        weight: 1
+      - path: Armature/Bone/Bone_001/Bone_002/Bone_003
+        weight: 1
+      - path: Armature/Bone/Bone_L
+        weight: 1
+      - path: Armature/Bone/Bone_L/Bone_L_001
+        weight: 1
+      - path: Armature/Bone/Bone_L/Bone_L_001/Bone_L_002
+        weight: 1
+      - path: Armature/Bone/Bone_L/Bone_L_001/Bone_L_002/Bone_L_003
+        weight: 1
+      - path: Armature/Bone/Bone_R
+        weight: 1
+      - path: Armature/Bone/Bone_R/Bone_R_001
+        weight: 1
+      - path: Armature/Bone/Bone_R/Bone_R_001/Bone_R_002
+        weight: 1
+      - path: Armature/Bone/Bone_R/Bone_R_001/Bone_R_002/Bone_R_003
+        weight: 1
+      - path: Armature/Bone_004
+        weight: 1
+      - path: Armature/Bone_004/Bone_005
+        weight: 1
+      - path: Armature/Bone_004_L
+        weight: 1
+      - path: Armature/Bone_004_L/Bone_004_L_001
+        weight: 1
+      - path: Armature/Bone_004_L/Bone_004_L_001/Bone_004_L_002
+        weight: 1
+      - path: Armature/Bone_004_L/Bone_004_L_001/Bone_004_L_002/Bone_004_L_003
+        weight: 1
+      - path: Armature/Bone_004_R
+        weight: 1
+      - path: Armature/Bone_004_R/Bone_004_R_001
+        weight: 1
+      - path: Armature/Bone_004_R/Bone_004_R_001/Bone_004_R_002
+        weight: 1
+      - path: Armature/Bone_004_R/Bone_004_R_001/Bone_004_R_002/Bone_004_R_003
+        weight: 1
+      - path: Sheep
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Talk
+      takeName: Talk
+      firstFrame: 0
+      lastFrame: 111
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone_001
+        weight: 1
+      - path: Armature/Bone/Bone_001/Bone_002
+        weight: 1
+      - path: Armature/Bone/Bone_001/Bone_002/Bone_003
+        weight: 1
+      - path: Armature/Bone/Bone_L
+        weight: 1
+      - path: Armature/Bone/Bone_L/Bone_L_001
+        weight: 1
+      - path: Armature/Bone/Bone_L/Bone_L_001/Bone_L_002
+        weight: 1
+      - path: Armature/Bone/Bone_L/Bone_L_001/Bone_L_002/Bone_L_003
+        weight: 1
+      - path: Armature/Bone/Bone_R
+        weight: 1
+      - path: Armature/Bone/Bone_R/Bone_R_001
+        weight: 1
+      - path: Armature/Bone/Bone_R/Bone_R_001/Bone_R_002
+        weight: 1
+      - path: Armature/Bone/Bone_R/Bone_R_001/Bone_R_002/Bone_R_003
+        weight: 1
+      - path: Armature/Bone_004
+        weight: 1
+      - path: Armature/Bone_004/Bone_005
+        weight: 1
+      - path: Armature/Bone_004_L
+        weight: 1
+      - path: Armature/Bone_004_L/Bone_004_L_001
+        weight: 1
+      - path: Armature/Bone_004_L/Bone_004_L_001/Bone_004_L_002
+        weight: 1
+      - path: Armature/Bone_004_L/Bone_004_L_001/Bone_004_L_002/Bone_004_L_003
+        weight: 1
+      - path: Armature/Bone_004_R
+        weight: 1
+      - path: Armature/Bone_004_R/Bone_004_R_001
+        weight: 1
+      - path: Armature/Bone_004_R/Bone_004_R_001/Bone_004_R_002
+        weight: 1
+      - path: Armature/Bone_004_R/Bone_004_R_001/Bone_004_R_002/Bone_004_R_003
+        weight: 1
+      - path: Sheep
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

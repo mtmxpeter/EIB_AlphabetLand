@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: a5548850092c9e54285ed0a298b8cc60
+timeCreated: 1501225429
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 128
+  forceTextureCase: -1
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Junior Typing
+  fontNames:
+  - Junior Typing
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

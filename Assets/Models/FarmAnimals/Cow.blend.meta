@@ -1,0 +1,187 @@
+fileFormatVersion: 2
+guid: 03f111f1f745bcd4aac3b38a76d30e1a
+timeCreated: 1489432222
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Cube
+    100004: Cube_001
+    100006: Cube_002
+    100008: Cube_003
+    100010: Cube_007
+    100012: Cylinder
+    100014: Sphere
+    100016: Sphere_001
+    100018: Torus
+    100020: Armature
+    100022: Bone
+    100024: Bone_001
+    100026: Bone_002
+    100028: Bone_003
+    100030: Bone_004
+    100032: Bone_005
+    100034: Bone_006
+    100036: Bone_007
+    100038: Bone_008
+    100040: Bone_009
+    100042: Bone_010
+    100044: Bone_011
+    100046: Bone_012
+    100048: Bone_013
+    100050: Bone_014
+    100052: Bone_015
+    100054: Bone_016
+    100056: Bone_017
+    100058: Bone_018
+    100060: Bone_019
+    100062: Bone_020
+    100064: Bone_021
+    100066: Bone_022
+    100068: Bone_023
+    100070: Cow
+    100072: Bone_024
+    100074: Bone_025
+    400000: //RootNode
+    400002: Cube
+    400004: Cube_001
+    400006: Cube_002
+    400008: Cube_003
+    400010: Cube_007
+    400012: Cylinder
+    400014: Sphere
+    400016: Sphere_001
+    400018: Torus
+    400020: Armature
+    400022: Bone
+    400024: Bone_001
+    400026: Bone_002
+    400028: Bone_003
+    400030: Bone_004
+    400032: Bone_005
+    400034: Bone_006
+    400036: Bone_007
+    400038: Bone_008
+    400040: Bone_009
+    400042: Bone_010
+    400044: Bone_011
+    400046: Bone_012
+    400048: Bone_013
+    400050: Bone_014
+    400052: Bone_015
+    400054: Bone_016
+    400056: Bone_017
+    400058: Bone_018
+    400060: Bone_019
+    400062: Bone_020
+    400064: Bone_021
+    400066: Bone_022
+    400068: Bone_023
+    400070: Cow
+    400072: Bone_024
+    400074: Bone_025
+    2300000: Cube
+    2300002: Cube_001
+    2300004: Cube_002
+    2300006: Cube_003
+    2300008: Cube_007
+    2300010: Cylinder
+    2300012: Sphere
+    2300014: Sphere_001
+    2300016: Torus
+    2300018: //RootNode
+    3300000: Cube
+    3300002: Cube_001
+    3300004: Cube_002
+    3300006: Cube_003
+    3300008: Cube_007
+    3300010: Cylinder
+    3300012: Sphere
+    3300014: Sphere_001
+    3300016: Torus
+    3300018: //RootNode
+    4300000: Cube_003
+    4300002: Cube_002
+    4300004: Cube_001
+    4300006: Sphere_001
+    4300008: Sphere
+    4300010: Cube
+    4300012: Cylinder
+    4300014: Cube_007
+    4300016: Torus
+    4300018: Cow
+    7400000: Default Take
+    7400002: Idle
+    7400004: Talk
+    9500000: //RootNode
+    13700000: Cube_007
+    13700002: Cow
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
