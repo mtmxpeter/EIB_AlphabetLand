@@ -15,6 +15,7 @@ public class PurchaseScript : MonoBehaviour, IStoreListener
 	public static string PRODUCT_LEVEL2 = "allevel2";
 	public static string PRODUCT_LEVEL3 = "allevel3";
 	public static string PRODUCT_LEVEL4 = "allevel4";
+	public static string PRODUCT_LEVEL5 = "allevel5";
 
 	private int castlelevel;
 
@@ -52,7 +53,8 @@ public class PurchaseScript : MonoBehaviour, IStoreListener
 		builder.AddProduct(PRODUCT_SAFARI, ProductType.NonConsumable);			
 		builder.AddProduct(PRODUCT_LEVEL2, ProductType.NonConsumable);			
 		builder.AddProduct(PRODUCT_LEVEL3, ProductType.NonConsumable);			
-		builder.AddProduct(PRODUCT_LEVEL4, ProductType.NonConsumable);			
+		builder.AddProduct(PRODUCT_LEVEL4, ProductType.NonConsumable);		
+		builder.AddProduct(PRODUCT_LEVEL5, ProductType.NonConsumable);
 
 		UnityPurchasing.Initialize(this, builder);
 	}
@@ -88,6 +90,9 @@ public class PurchaseScript : MonoBehaviour, IStoreListener
 		}
 		if (castlelevel == 4) {
 			BuyProductID (PRODUCT_LEVEL4);
+		}
+		if (castlelevel == 5) {
+			BuyProductID (PRODUCT_LEVEL5);
 		}
 	}
 
@@ -213,6 +218,12 @@ public class PurchaseScript : MonoBehaviour, IStoreListener
 		if (String.Equals (args.purchasedProduct.definition.id, PRODUCT_LEVEL4, StringComparison.Ordinal)) {
 			Debug.Log ("Purchase Level 4 Successful");	
 			PlayerPrefs.SetInt ("Group4Status", 1);
+			//MMS.ConfirmCastle ();
+			SceneManager.LoadScene ("Castle");
+		}
+		if (String.Equals (args.purchasedProduct.definition.id, PRODUCT_LEVEL5, StringComparison.Ordinal)) {
+			Debug.Log ("Purchase Level 5 Successful");	
+			PlayerPrefs.SetInt ("Group5Status", 1);
 			//MMS.ConfirmCastle ();
 			SceneManager.LoadScene ("Castle");
 		}
