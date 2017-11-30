@@ -12,10 +12,10 @@ public class PurchaseScript : MonoBehaviour, IStoreListener
 	private static IExtensionProvider m_StoreExtensionProvider; // The store-specific Purchasing subsystems.		
 
 	public static string PRODUCT_SAFARI = "safariscene";
-	public static string PRODUCT_LEVEL2 = "allevel2";
+
 	public static string PRODUCT_LEVEL3 = "allevel3";
 	public static string PRODUCT_LEVEL4 = "allevel4";
-	public static string PRODUCT_LEVEL5 = "allevel5";
+
 
 	private int castlelevel;
 
@@ -51,10 +51,10 @@ public class PurchaseScript : MonoBehaviour, IStoreListener
 		var builder = ConfigurationBuilder.Instance(StandardPurchasingModule.Instance());
 
 		builder.AddProduct(PRODUCT_SAFARI, ProductType.NonConsumable);			
-		builder.AddProduct(PRODUCT_LEVEL2, ProductType.NonConsumable);			
+	
 		builder.AddProduct(PRODUCT_LEVEL3, ProductType.NonConsumable);			
 		builder.AddProduct(PRODUCT_LEVEL4, ProductType.NonConsumable);		
-		builder.AddProduct(PRODUCT_LEVEL5, ProductType.NonConsumable);
+
 
 		UnityPurchasing.Initialize(this, builder);
 	}
@@ -82,18 +82,14 @@ public class PurchaseScript : MonoBehaviour, IStoreListener
 		// through ProcessPurchase or OnPurchaseFailed asynchronously.
 
 		castlelevel = PlayerPrefs.GetInt("GroupSelection");
-		if (castlelevel == 2) {
-			BuyProductID (PRODUCT_LEVEL2);
-		}
+
 		if (castlelevel == 3) {
 			BuyProductID (PRODUCT_LEVEL3);
 		}
 		if (castlelevel == 4) {
 			BuyProductID (PRODUCT_LEVEL4);
 		}
-		if (castlelevel == 5) {
-			BuyProductID (PRODUCT_LEVEL5);
-		}
+
 	}
 
 
@@ -203,12 +199,6 @@ public class PurchaseScript : MonoBehaviour, IStoreListener
 			SceneManager.LoadScene ("Safari");
 		}
 
-		if (String.Equals (args.purchasedProduct.definition.id, PRODUCT_LEVEL2, StringComparison.Ordinal)) {
-			Debug.Log ("Purchase Level 2Successful");	
-			PlayerPrefs.SetInt ("Group2Status", 1);
-			//MMS.ConfirmCastle ();
-			SceneManager.LoadScene ("Castle");
-		}
 		if (String.Equals (args.purchasedProduct.definition.id, PRODUCT_LEVEL3, StringComparison.Ordinal)) {
 			Debug.Log ("Purchase Level 3 Successful");	
 			PlayerPrefs.SetInt ("Group3Status", 1);
@@ -221,12 +211,7 @@ public class PurchaseScript : MonoBehaviour, IStoreListener
 			//MMS.ConfirmCastle ();
 			SceneManager.LoadScene ("Castle");
 		}
-		if (String.Equals (args.purchasedProduct.definition.id, PRODUCT_LEVEL5, StringComparison.Ordinal)) {
-			Debug.Log ("Purchase Level 5 Successful");	
-			PlayerPrefs.SetInt ("Group5Status", 1);
-			//MMS.ConfirmCastle ();
-			SceneManager.LoadScene ("Castle");
-		}
+
 	
 
 		return PurchaseProcessingResult.Complete;
